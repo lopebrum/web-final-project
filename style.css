@@ -1,0 +1,476 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SecondFont';
+    src: url('Poppins-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'MyFont', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    font-family: 'MyFont', sans-serif;
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HEADER */
+
+header {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav-link nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link nav ul li {
+    margin-left: 25px;
+}
+
+.nav-link nav ul li a {
+    font-weight: bold;
+    color: #000;
+}
+
+.nav-link nav ul li a:hover {
+    color: gray;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.actions button {
+    font-family: 'MyFont', sans-serif;
+    font-weight: bold;
+
+    margin-left: 15px;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+.whatsapp {
+    display: flex;
+    align-items: center;
+}
+
+.whatsapp img {
+    width: 13px;
+    height: 13px;
+    margin-right: 8px;
+}
+
+.whatsapp:hover {
+    background-color: #bdbdbd;
+}
+
+.login {
+    background-color: #8effb4;
+    color: white;
+}
+
+.login:hover {
+    background-color: #00ff84;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MAIN PAGE */
+
+.image-container {
+    background-image: url('images/bgMb.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.elements .main-text {
+    font-family: 'SecondFont', sans-serif;
+    color: #fff;
+    padding-top: 150px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.elements .main-text h1 {
+    font-size: 100px;
+    margin: 10px 0;
+}
+
+.elements .main-text h3 {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.elements .main-btn {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.elements .main-btn button {
+    background-color: #2B6F3E;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 15px 30px;
+    border-radius: 15px;
+    border: none;
+}
+
+.elements .main-btn a {
+    font-size: 25px;
+    color: white;
+}
+
+.main-btn button:hover {
+    background-color: #009d27;
+    transform: scale(1.03);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TOUR PAGE */
+.packages-cotainer {
+    margin-bottom: 50px;
+}
+
+.packages-text {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.packages-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.packages-places {
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.packages-places-two {
+    display: flex;
+    justify-content: space-around;
+}
+
+.packages-places .place img {
+    height: 380px;
+    width: 370px;
+}
+
+.packages-places-two .place img {
+    height: 380px;
+    width: 370px;
+}
+
+.place {
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 15px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.place:hover {
+    transform: scale(1.01);
+}
+
+.place p {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.place button {
+    padding: 5px 8px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.place button:hover {
+    background-color: #b8b8b8;
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #e2e2e2;
+}
+
+.footer-container {
+    justify-content: space-around;
+    display: flex;
+    padding: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.footer-bottom-links a {
+    margin: 0px 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* REGISTRATION */
+
+.reg-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ebebeb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reg-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.log {
+    text-decoration: underline;
+}
+
+.input {
+    padding: 15px;
+}
+
+.input label {
+    display: block;
+    font-weight: bold;
+}
+
+.reg-container button {
+    margin: 10px 15px;
+}
+
+.reg-container p {
+    margin: 10px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT */
+.about-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+.about-banner {
+    background-image: url('your-banner-image-url.jpg');
+    background-size: cover;
+    color: black;
+    padding: 5px 20px;
+}
+
+.about-banner h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.about-banner p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about-content h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    font-size: 16px;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.values-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.values-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+.team-section {
+    text-align: center;
+}
+
+.team-section h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.team-members .member {
+    text-align: center;
+    width: 250px;
+}
+
+.team-members .member img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.team-members .member h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.team-members .member p {
+    font-size: 16px;
+    color: gray;
+}
+
+.about-highlights {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.about-highlights .highlight-item {
+    width: 250px;
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-highlights h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.about-highlights p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
