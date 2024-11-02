@@ -474,3 +474,92 @@ footer {
     color: #555;
     margin-bottom: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FLIGHT PAGE */
+
+.flight-text-img {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.flight-text-img h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 40px;
+}
+
+.flight-img img {
+    width: 30px;
+    height: auto;
+}
+
+.flight-container {
+    background-color: white;
+    max-width: 950px;
+    margin: 60px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.flight-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+}
+
+.form-group {
+    align-items: center;
+    display: flex;
+    margin-bottom: 15px;
+    gap: 20px;
+}
+
+.form-group label {
+    margin-bottom: 6px;
+}
+
+.form-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-btn {
+    padding: 13px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.search-btn:hover {
+    background-color: #0056b3;
+}
