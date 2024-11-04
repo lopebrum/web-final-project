@@ -491,12 +491,11 @@ footer {
 /* FLIGHT PAGE */
 
 .flight-text-img {
-    text-align: center;
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .flight-text-img h1 {
@@ -505,15 +504,16 @@ footer {
 }
 
 .flight-img img {
-    width: 30px;
+    width: 40px;
     height: auto;
 }
 
 .flight-container {
     background-color: white;
     max-width: 950px;
-    margin: 60px auto;
-    padding: 20px;
+    margin: 0px auto;
+    margin-bottom: 70px;
+    padding: 50px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
@@ -532,6 +532,7 @@ footer {
 .radio-group {
     display: flex;
     gap: 15px;
+    padding-bottom: 15px;
 }
 
 .form-group {
@@ -552,6 +553,7 @@ footer {
 }
 
 .search-btn {
+    margin-top: 15px;
     padding: 13px;
     background-color: #007bff;
     color: white;

@@ -17,11 +17,11 @@
     <div class="nav-link">
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="flight.html">Flight</a></li>
-                <li><a href="tour.html">Tour</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#">Support</a></li>
+                <li><a href="#" id="index">Home</a></li>
+                <li><a href="#" id="flight">Flight</a></li>
+                <li><a href="#" id="tour">Tour</a></li>
+                <li><a href="#" id="about">About</a></li>
+                <li><a href="#" id="support">Support</a></li>
             </ul>
         </nav>
     </div>
@@ -32,24 +32,23 @@
             <a href="">What's up</a>
         </button>
 
-        <button class="login">
-            <a href="reg.html">Registration</a>
+        <button class="login" id="reg">
+            <a href="#">Registration</a>
         </button>
     </div>
 </header>
 
 <body>
-    
+
     <div class="flight-text-img">
         <h1>Tour Booking</h1>
         <div class="flight-img">
             <img src="../images/fly.png" alt="">
         </div>
     </div>
-    
+
     <div class="flight-container">
         <div class="flight-header">
-            <h1>Flight</h1>
             <div class="radio-group">
                 <label>
                     <input type="radio" name="trip-type" value="one-way"> One way
@@ -66,17 +65,34 @@
             <div class="form-group">
                 <label for="from">From</label>
                 <select id="from" class="form-input">
-                    <option>Shahjalal International Airport, Bangladesh</option>
-                    <option>Shahjalal International Airport, Bangladesh</option>
-                    <option>Shahjalal International Airport, Bangladesh</option>
+                    <option>Nursultan Nazarbayev International Airport, Kazakhstan</option>
+                    <option>Almaty International Airport, Kazakhstan</option>
+                    <option>Shymkent International Airport, Kazakhstan</option>
+                    <option>Aktau International Airport, Kazakhstan</option>
+                    <option>Aktobe International Airport, Kazakhstan</option>
+                    <option>Karaganda Airport, Kazakhstan</option>
+                    <option>Pavlodar Airport, Kazakhstan</option>
+                    <option>Kostanay Airport, Kazakhstan</option>
+                    <option>Uralsk Airport, Kazakhstan</option>
+                    <option>Taraz Airport, Kazakhstan</option>
+                    <option>Kyzylorda Airport, Kazakhstan</option>
+                    <option>Petropavlovsk Airport, Kazakhstan</option>
+                    <option>Semey Airport, Kazakhstan</option>
                 </select>
             </div>
             <div class="form-group">
                 <label for="to">To</label>
                 <select id="to" class="form-input">
-                    <option>Qatar International Airport, Qatar</option>
-                    <option>Qatar International Airport, Qatar</option>
-                    <option>Qatar International Airport, Qatar</option>
+                    <option>Heathrow Airport, United Kingdom</option>
+                    <option>JFK International Airport, United States</option>
+                    <option>Changi Airport, Singapore</option>
+                    <option>Incheon International Airport, South Korea</option>
+                    <option>Tokyo Haneda Airport, Japan</option>
+                    <option>Dubai International Airport, United Arab Emirates</option>
+                    <option>Charles de Gaulle Airport, France</option>
+                    <option>Amsterdam Airport Schiphol, Netherlands</option>
+                    <option>Munich Airport, Germany</option>
+                    <option>Barcelona-El Prat Airport, Spain</option>
                 </select>
             </div>
             <div class="form-group">
@@ -132,6 +148,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="../script.js"></script>
+
 </body>
 
 </html>
